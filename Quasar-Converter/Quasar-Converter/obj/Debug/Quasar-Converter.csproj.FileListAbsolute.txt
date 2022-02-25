@@ -1,0 +1,15 @@
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar-Converter.csproj.AssemblyReference.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar-Converter.csproj.SuggestedBindingRedirects.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar_Converter.Form1.resources
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar_Converter.Properties.Resources.resources
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar-Converter.csproj.GenerateResource.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar-Converter.csproj.CoreCompileInputs.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\bin\Debug\Quasar-Converter.exe.config
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\bin\Debug\Quasar-Converter.exe
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\bin\Debug\Quasar-Converter.pdb
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar-Converter.exe
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar-Converter.pdb
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\bin\Debug\Quasar-Converter.exe.manifest
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\bin\Debug\Quasar-Converter.application
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar-Converter.exe.manifest
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\Quasar-Converter\Quasar-Converter\obj\Debug\Quasar-Converter.application
