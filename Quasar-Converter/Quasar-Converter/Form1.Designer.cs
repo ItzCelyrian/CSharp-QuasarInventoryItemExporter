@@ -139,9 +139,9 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(402, 30);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(80, 17);
+            this.checkBox3.Size = new System.Drawing.Size(82, 17);
             this.checkBox3.TabIndex = 9;
-            this.checkBox3.Text = "shoudclose";
+            this.checkBox3.Text = "shouldclose";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // label2

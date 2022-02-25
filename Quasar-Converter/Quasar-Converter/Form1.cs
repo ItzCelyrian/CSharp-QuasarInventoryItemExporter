@@ -63,7 +63,7 @@ namespace Quasar_Converter
             var label = subs[1];
             int weight = Convert.ToInt16(subs[2]) * multiplier;
             textBox1.Multiline = true;
-            textBox1.Text = $"[\"{item}\"]" + "{\r\n" +
+            textBox1.Text = $"[\"{item}\"] = " + "{\r\n" +
                             $"      [\"name\"] = \"{item}\",\r\n" +
                             $"      [\"label\"] = \"{label}\",\r\n" +
                             $"      [\"weight\"] = {weight},\r\n" +
