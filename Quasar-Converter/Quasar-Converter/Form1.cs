@@ -23,6 +23,7 @@ namespace Quasar_Converter
             var usable = false;
             var description = "Just a description";
             var multiplier = 1;
+            var combinable = "nil";
             var shouldClose = false;
             var charsToRemove = new string[] { "(", ",", ")", "'", "\"", };
 
@@ -42,6 +43,21 @@ namespace Quasar_Converter
             if (richTextBox3.TextLength == 0) multiplier = 1;
             else multiplier = Convert.ToInt16(richTextBox3.Text);
 
+            if (checkBox5.Checked == false) combinable = "nil";
+            else
+            { 
+                combinable = "{\r\n" +
+                             "              accept = " + "{" + $"\"{richTextBox4.Text}\"" + "}" + ",\r\n" +
+                            $"              reward = \"{richTextBox5.Text}\",\r\n" +
+                            $"              anim = " + "{" +"\r\n" +
+                            $"                 [\"dict\"] = \"{richTextBox6.Text}\",\r\n" +
+                            $"                 [\"lib\"] = \"{richTextBox7.Text}\",\r\n" +
+                            $"                 [\"text\"] = {richTextBox8.Text},\r\n" +
+                            $"                 [\"timeOut\"] = {richTextBox9.Text},\r\n" +
+                             "                 }\r\n" +
+                             "      }";
+            }
+
             string[] subs = str.Split(' ');
             var item = subs[0];
             var label = subs[1];
@@ -56,7 +72,7 @@ namespace Quasar_Converter
                             $"      [\"unique\"] = {unique},\r\n" +
                             $"      [\"useable\"] = {usable},\r\n" +
                             $"      [\"shouldClose\"] = {shouldClose},\r\n" +
-                            $"      [\"combinable\"] = nil,\r\n" +
+                            $"      [\"combinable\"] = {combinable},\r\n" +
                             $"      [\"description\"] = \"{description}\"\r\n" +
                             "},";
         }
@@ -75,6 +91,60 @@ namespace Quasar_Converter
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox5.Checked == true)
+            {
+                richTextBox4.Visible = true;
+                richTextBox5.Visible = true;
+                richTextBox6.Visible = true;
+                richTextBox7.Visible = true;
+                richTextBox8.Visible = true;
+                richTextBox9.Visible = true;
+                label4.Visible = true;
+                label5.Visible = true;
+                label6.Visible = true;
+                label7.Visible = true;
+                label8.Visible = true;
+                label9.Visible = true;
+            }
+            else
+            {
+                richTextBox4.Visible = false;
+                richTextBox5.Visible = false;
+                richTextBox6.Visible = false;
+                richTextBox7.Visible = false;
+                richTextBox8.Visible = false;
+                richTextBox9.Visible = false;
+                label4.Visible = false;
+                label5.Visible = false;
+                label6.Visible = false;
+                label7.Visible = false;
+                label8.Visible = false;
+                label9.Visible = false;
+            }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox5_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
