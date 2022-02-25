@@ -52,7 +52,7 @@ namespace Quasar_Converter
                             $"              anim = " + "{" +"\r\n" +
                             $"                 [\"dict\"] = \"{richTextBox6.Text}\",\r\n" +
                             $"                 [\"lib\"] = \"{richTextBox7.Text}\",\r\n" +
-                            $"                 [\"text\"] = {richTextBox8.Text},\r\n" +
+                            $"                 [\"text\"] = \"{richTextBox8.Text}\",\r\n" +
                             $"                 [\"timeOut\"] = {richTextBox9.Text},\r\n" +
                              "                 }\r\n" +
                              "      }";
@@ -125,26 +125,6 @@ namespace Quasar_Converter
                 label8.Visible = false;
                 label9.Visible = false;
             }
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox5_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

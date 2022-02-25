@@ -201,7 +201,6 @@
             this.richTextBox4.TabIndex = 16;
             this.richTextBox4.Text = "";
             this.richTextBox4.Visible = false;
-            this.richTextBox4.TextChanged += new System.EventHandler(this.richTextBox4_TextChanged);
             // 
             // label4
             // 
@@ -212,7 +211,6 @@
             this.label4.TabIndex = 17;
             this.label4.Text = "accept";
             this.label4.Visible = false;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // richTextBox5
             // 
@@ -223,7 +221,6 @@
             this.richTextBox5.TabIndex = 18;
             this.richTextBox5.Text = "";
             this.richTextBox5.Visible = false;
-            this.richTextBox5.TextChanged += new System.EventHandler(this.richTextBox5_TextChanged);
             // 
             // label5
             // 
@@ -234,7 +231,6 @@
             this.label5.TabIndex = 19;
             this.label5.Text = "reward";
             this.label5.Visible = false;
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
