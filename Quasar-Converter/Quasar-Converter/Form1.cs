@@ -22,8 +22,9 @@ namespace Quasar_Converter
             var unique = false;
             var usable = false;
             var description = "Just a description";
+            var multiplier = 1;
             var shouldClose = false;
-            var charsToRemove = new string[] { "(", ",", ")" };
+            var charsToRemove = new string[] { "(", ",", ")", "'", "\"", };
 
             foreach (var c in charsToRemove)
             {
@@ -38,10 +39,13 @@ namespace Quasar_Converter
 
             description = richTextBox2.Text;
 
+            if (richTextBox3.TextLength == 0) multiplier = 1;
+            else multiplier = Convert.ToInt16(richTextBox3.Text);
+
             string[] subs = str.Split(' ');
             var item = subs[0];
             var label = subs[1];
-            int weight = Convert.ToInt16(subs[2]) * 100;
+            int weight = Convert.ToInt16(subs[2]) * multiplier;
             textBox1.Multiline = true;
             textBox1.Text = $"[\"{item}\"]" + "{\r\n" +
                             $"      [\"name\"] = \"{item}\",\r\n" +
@@ -60,8 +64,9 @@ namespace Quasar_Converter
         private void button2_Click(object sender, EventArgs e)
         {
             richTextBox1.Clear();
-            textBox1.Clear();
             richTextBox2.Clear();
+            richTextBox3.Clear();
+            textBox1.Clear();
             checkBox1.Checked = false;
             checkBox2.Checked = false;
             checkBox3.Checked = false;
